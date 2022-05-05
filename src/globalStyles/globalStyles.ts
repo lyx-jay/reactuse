@@ -6,8 +6,8 @@ const GlobalStyles = createGlobalStyle`
 :root {
   --light: #ffffff;
   --dark: #050505;
-  --textColorLight: #cccccc;
-  --textColorDark: #848588
+  --textColorLight: #6c757d;
+  --textColorDark: #e9ecef
 }
 
 * {
@@ -35,7 +35,7 @@ a {
   cursor: pointer;
 }
 a:hover {
-  color: red;
+  color: #e5989b;
 }
 
 .container {

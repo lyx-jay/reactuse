@@ -5,13 +5,12 @@ const HeaderStyles = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     .header__categories {
       display: flex;
       align-items: center;
       .category__item {
         margin: 0 1rem;
-        font-weight: 500;
       }
     }
   }

@@ -30,7 +30,7 @@ li {
 }
 
 a {
-  color: pink;
+  color: inherit;
   text-decoration: none;
   cursor: pointer;
 }

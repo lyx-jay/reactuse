@@ -1,16 +1,24 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3364500 */
-  src: url('iconfont.woff2?t=1651108915906') format('woff2'),
-       url('iconfont.woff?t=1651108915906') format('woff'),
-       url('iconfont.ttf?t=1651108915906') format('truetype');
+  src: url('iconfont.woff2?t=1651718223090') format('woff2'),
+       url('iconfont.woff?t=1651718223090') format('woff'),
+       url('iconfont.ttf?t=1651718223090') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-project-solid-list:before {
+  content: "\e6cf";
+}
+
+.icon-blog:before {
+  content: "\e627";
 }
 
 .icon-moon:before {

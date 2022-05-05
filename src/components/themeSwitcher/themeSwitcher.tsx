@@ -4,7 +4,8 @@ import themeList from "../../data/themeList";
 import ThemeSwitcherStyles from "./themeSwitcherStyles";
 
 type ThemeProps = {
-  className: string
+  className: string,
+  title: string
 }
 
 export default function ThemeSwitcher(props: ThemeProps) {
@@ -12,7 +13,7 @@ export default function ThemeSwitcher(props: ThemeProps) {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <ThemeSwitcherStyles className={props.className} onClick={toggleTheme}>
+    <ThemeSwitcherStyles className={props.className} onClick={toggleTheme} title={props.title}>
       {
         theme === themeList.light ?
           <span className="iconfont icon-sun"></span> : 

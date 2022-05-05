@@ -8,13 +8,16 @@ export default function Header() {
         <div className="header__wrapper">
           <div className="header__logo">Lyx</div>
           <div className="header__categories">
-            <a href="/" className="category__item">
+            <a href="https://github.com/lyx-jay" className="category__item" target="_blank" rel="noreferrer" title="Github">
               <span className="iconfont icon-github"></span>
             </a>
-            <a href="/" className="category__item">Github</a>
-            <a href="/" className="category__item">Blog</a>
-            <a href="/" className="category__item">Projects</a>
-            <ThemeSwitcher className="category__item"/>
+            <a href="https://lyx-jay.github.io/Blog/" className="category__item" target="_blank" rel="noreferrer" title="Blog">
+              <span className="iconfont icon-blog"></span>
+            </a>
+            <a href="/" className="category__item" title="Projects">
+              <span className="iconfont icon-project-solid-list"></span>
+            </a>
+            <ThemeSwitcher className="category__item" title="theme"/>
           </div>
         </div>
       </div>

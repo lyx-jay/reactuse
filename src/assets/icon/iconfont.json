@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "288840",
+      "name": "project-solid-list",
+      "font_class": "project-solid-list",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "1061079",
+      "name": "Blog",
+      "font_class": "blog",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
       "icon_id": "5994097",
       "name": "moon",
       "font_class": "moon",
